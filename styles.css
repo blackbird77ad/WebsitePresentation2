@@ -1,0 +1,52 @@
+nav {
+    height: 15vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color: #C49B63;
+    align-items: center;
+    overflow-x: hidden;
+    /* background-image: linear-gradient(to right, #C49B63 50%, black 100vh); */
+}
+
+.navlogo {
+   display: flex;
+    flex-direction: row;
+}
+
+.navlogo h1 {
+    text-shadow: #f5efed;
+}
+
+.nav a {
+    display: flex;
+    justify-content: space-around;
+    column-gap: 25px;
+   font-size: 5rem;
+   font-weight: bold;
+   color: #f5efed;
+}
+
+nav a:hover {
+    background-color: black;
+    color: white;   
+    font-weight: bolder;
+
+} 
+
+.text-brown {
+    color: black;
+}
+
+.nav-button {
+    height: 5vh;
+    width: 15rem;
+    line-height: 20px;
+    border-radius: 35px;
+    background-color: #C49B63;
+    padding: 10px 10px;
+    /* margin: 10rem; */
+}
+
+
