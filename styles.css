@@ -59,6 +59,13 @@ nav {
     font-size: larger;
 }
 
+.nav-btn {
+    border-radius: 25px;
+    width: 5rem;
+    height: 4vh;
+}
+
+
 .hero-item {
   height: 15%;
   width: 80%;
@@ -150,5 +157,7 @@ padding: 20px;
 }
 
 .brainstorm h2 {
-    font-weight: 50rem;
+   font-size: 50px ;
+   padding-top: 20px;
 }
+
